@@ -1,3 +1,4 @@
+HEAD
 # EventWise – Smart Event Management Platform
 
 EventWise is a microservices-based event management system that allows users to register, track, and receive updates for various events (webinars, workshops, conferences). Organizers can manage events and monitor user engagement with real-time notifications and analytics.
@@ -56,3 +57,25 @@ Week	  Milestone
 10	    Set up CI/CD pipelines
 11	    Add monitoring and logging
 12	    Final testing and documentation
+
+# EventWise Microservices Project
+
+This project demonstrates a microservices architecture for an event management system using FastAPI and Docker.
+
+## Services
+
+- user-service: Handles user registration and retrieval.
+- event-service: Handles event creation and listing.
+
+## Running the Project
+
+Use Docker Compose to start the services:
+
+```bash
+docker compose up --build
+```
+
+Then access:
+- User service at http://localhost:8001
+- Event service at http://localhost:8002
+02ef6d3 (Initial commit for EventWise microservices project)

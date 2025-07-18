@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  user-service:
+    build: ./user-service
+    ports:
+      - "8001:8000"
+  event-service:
+    build: ./event-service
+    ports:
+      - "8002:8000"
